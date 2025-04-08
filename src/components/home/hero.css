@@ -1,0 +1,51 @@
+.hero {
+    background-color: #1d0f41;
+    height: 100vh;
+    position: relative;
+}
+
+
+.hero-img {
+    width: 30%;
+}
+
+.hero-img>.background-hero{
+    margin-top: 100px;
+    filter: blur(60px);
+}
+
+.hero-img>.small-hero{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+
+.hero-text-container {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text-container h1 {
+    font-weight: 1000;
+    font-size: 4rem;
+} 
+.hero-text-container h1::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #b84ff8;
+    margin-left: 3px;
+}
+.hero-text-container p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #b84ff8;
+}
+

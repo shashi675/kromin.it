@@ -1,0 +1,42 @@
+.crousel{
+    padding-inline: 50px;
+    background-color: #1d0f41;
+    overflow: hidden;
+    width: 100%;
+}
+
+.crousel .upper-row, .lower-row{
+    display: flex;
+    width: 200%; /* Double width to accommodate the duplicate spans */
+    animation: scroll 5s linear infinite reverse;
+}
+
+.crousel .lower-row {
+    animation: scroll 5s linear infinite;
+}
+
+.crousel span{
+    display: inline-block;
+    width: 8%; 
+    flex-shrink: 0;
+}
+
+.crousel .upper-row:hover,
+.crousel .lower-row:hover {
+    animation-play-state: paused;
+}
+
+.crousel span img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

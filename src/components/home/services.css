@@ -1,0 +1,80 @@
+
+
+.services{
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-inline: 50px;
+    position: relative;
+}
+
+.services .left-services {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.services .left-services p {
+    color: #b84ff8;
+}
+
+.services .left-services h2 {
+    font-weight: 900;
+}
+
+.services .left-services .line {
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(to right, #1d0f41, #b84ff8);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.services .left-services a{
+    text-decoration: none;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.services .left-services a:hover img {
+    animation: to-and-fro 1s ease infinite;
+}
+
+.services .left-services a img{  
+    height: 30px;
+    transition: transform 0.5s ease;
+}
+
+@keyframes to-and-fro {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(10px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+
+.services .right-services {
+    width: 50%;
+    line-height: 2;
+    font-size: 1.3rem;
+}
+
+.services .right-services div {
+    margin-block: 50px;
+}
+
+.services .right-services img {
+    height: 80px;
+    margin-bottom: 20px;
+    stroke: red;
+}
+
+.services .right-services h6 {
+    color: #b84ff8;
+    font-weight: 700;
+}

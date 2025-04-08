@@ -1,0 +1,59 @@
+
+.videos {
+    padding-inline: 50px;
+    margin-top: 100px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.video-container>div {
+    width: 30%;
+    align-self: center;
+}
+
+.video-container>div>h3 {
+    font-weight: 700;
+}
+
+.video-container>div>p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+
+.video-container>div>a{
+    text-decoration: none;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.video-container>div>a:hover img {
+    animation: to-and-fro 1s ease infinite;
+}
+
+.video-container>div>a img{  
+    height: 30px;
+    transition: transform 0.5s ease;
+}
+
+@keyframes to-and-fro {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(10px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+
+
