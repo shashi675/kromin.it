@@ -1,0 +1,17 @@
+
+.teams {
+    margin-top: 100px;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+.teams .we-are-kromin {
+    width: 100%;
+}
+
+.teams .we-are-kromin img{
+    width: 70%;
+}

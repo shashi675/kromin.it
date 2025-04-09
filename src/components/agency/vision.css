@@ -1,0 +1,24 @@
+
+.vision {
+    margin-top: 100px;
+    flex-direction: column;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.vision .mission-content {
+    width: 60vw;
+    align-self: start;
+}
+
+.vision .vision-content {
+    width: 60vw;
+    align-self: end;
+    text-align: right;
+}
+
+.vision p {
+    font-size: 1.5rem;
+    color: #000;
+    line-height: 1.7;
+}

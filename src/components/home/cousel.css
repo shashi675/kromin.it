@@ -7,7 +7,7 @@
 
 .crousel .upper-row, .lower-row{
     display: flex;
-    width: 200%; /* Double width to accommodate the duplicate spans */
+    width: 200%; 
     animation: scroll 5s linear infinite reverse;
 }
 

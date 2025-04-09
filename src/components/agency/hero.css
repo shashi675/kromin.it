@@ -1,0 +1,46 @@
+
+.hero {
+    height: 100vh;
+    padding-top: 30vh;
+    flex-direction: column;
+    position: relative;
+    background-color: #1d0f4167;
+}
+
+.hero .agency-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero .agency-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .agency-content {
+    padding-inline: 50px;
+    color: white;
+}
+
+.hero .line {
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(to right, #1d0f41, #b84ff8);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-weight: 700;
+    width: 55vw;
+}
+
+.hero p {
+    font-size: 20px;
+    width: 50vw;
+}

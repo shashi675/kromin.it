@@ -3,8 +3,10 @@ import './utils.css'
 import { Routes, Route } from 'react-router-dom';
 import Cursor from './components/Cursor';
 import Home from './components/Home';
-import Services from './components/home/Services';
+import Agency from './components/Agency';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -14,9 +16,10 @@ function App() {
       <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/agency" element={<Agency />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   )
 }

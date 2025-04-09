@@ -113,7 +113,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-links hidden" ref={navLinks}>
                 <ul className='flex'>
-                    <li><a href="#">Agency</a></li>
+                    <li><a href="/agency">Agency</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Success stories</a></li>
                     <li><a href="#">Careers</a></li>

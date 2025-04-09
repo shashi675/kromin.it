@@ -1,0 +1,20 @@
+
+.teams .person-icon {
+    width: 23%;
+}
+
+.teams .person-icon a {
+    text-decoration: none;
+    color: #000;
+}
+
+.teams .person-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+.teams .person-icon p {
+    margin-block: 5px;
+    font-size: 12px;
+}
+
