@@ -1,0 +1,32 @@
+
+.services-page .our-partners {
+    padding: 100px 50px;
+    border-bottom: 2px solid #b84ff8;
+}
+
+.services-page .our-partners p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #b84ff8;
+}
+
+.services-page .our-partners h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-block: 50px 30px;
+}
+
+.services-page .our-partners .line {
+    height: 3px;
+    width: 50px;
+    background: linear-gradient(to right, #1d0f41, #b84ff8);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.services-page .our-partners .partner-images {
+    margin-top: 50px;
+    justify-content: space-around;
+}
+

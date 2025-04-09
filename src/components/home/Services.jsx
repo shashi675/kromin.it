@@ -32,7 +32,7 @@ const Services = () => {
             }
         );
 
-        const rightServiceDivs = servicesRef.current.querySelectorAll('.right-services div');
+        const rightServiceDivs = servicesRef.current.querySelectorAll('.right-services>div');
         
         rightServiceDivs.forEach((div, index) => {
             gsap.fromTo(div,
